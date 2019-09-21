@@ -20,13 +20,16 @@ If everything goes well, then application should run on local system.
 
 Test Application once run successfully
    
-    Check Application running status
+    Check Application running 
+    - Method: Get
     - https://localhost:8443/api/check/database/status
 
     Check database running status
+    - Method: Get
     - https://localhost:8443/api/check/application/status
 
     Sample basic authentication and schema validation
+    - Method: Post
     - https://localhost:8443/api/user/login
     - Add Header Auth(Without authorization it will through error) 
         - Authorization : Basic YzJOaGJtSmhjbU52WkdVeDpjMlZqY21WMFpWTmpZVzVpWVhKamIyUmxhMlY1
