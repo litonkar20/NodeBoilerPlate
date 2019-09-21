@@ -1,0 +1,44 @@
+{
+    "Error": {
+        "JwtTokenFailed": {
+            "status": "Error",
+            "code": 80001,
+            "messege": "Token Authorization failed. Please provide valid input "
+        },
+        "NoBasicAuthError":{
+            "status":"Error",
+            "code": 80002,
+            "messege": "Request failed because of missing authorization header"
+        },"BasicAuthError":{
+            "status":"Error",
+            "code": 80003,
+            "messege": "Authorization failed. Requested with an invalid authorization key"
+        },
+        "DBCOnnectionError": {
+            "status": "Error",
+            "code": 80004,
+            "messege": "DB Connection Failed"
+        },
+        "schemaValidation": {
+            "status": "Error",
+            "code": 80005
+        }
+    },
+    "Success": {
+        "applicationStatus":{
+            "status": true,
+            "code": 200,
+            "message": "Application is running successfully"
+        },
+        "databaseStatus":{
+            "status": true,
+            "code": 200,
+            "message": "Database is running successfully"
+        },
+        "loginSuccess": {
+            "status": true,
+            "code": 200,
+            "message": "Login Success. User verified"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "Sample": {
+        "$schema": "/api/user#",
+        "title": "Sample",
+        "type": "object",
+        "properties": {
+            "value": {
+                "type": "string/number",
+                "minLength": 1,
+                "pattern": "^[a-zA-Z0-9]+$",
+                "required": true,
+                "maxLength": 15,
+                "enum":["1","2"]
+            }
+        },
+        "required": ["value"],
+        "additionalProperties": false
+    },
+    "login": {
+        "$schema": "/api/user/login#",
+        "title": "User Login",
+        "type": "object",
+        "properties":{
+            "username": {
+                "type": "string"
+            },
+            "password": {
+                "type": "string",
+                "pattern": "^[a-zA-Z0-9]+$"
+            }
+        },
+        "required": ["username", "password"],
+        "additionalProperties": false
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "script": {
+        "dbTest":{
+            "select":"SELECT 1 + 1 AS solution"
+        },
+        "login":{
+            "select":"SELECT ? + ? AS solution"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "credentials": {
+        "loggerLevel": "debug",
+        "MySql": {
+            "host": "localhost",
+            "user": "admin",
+            "port": "3306",
+            "password": "rooot",
+            "database": "dbname"
+        },           
+        "APIAuth": {
+            "password": "c2VjcmV0ZVNjYW5iYXJjb2Rla2V5",
+            "username": "c2NhbmJhcmNvZGUx"
+        }
+    }
+}
