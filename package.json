@@ -10,7 +10,7 @@
   "author": "Liton Kar",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^2.6.4",
     "axios": "^0.19.0",
     "basic-auth": "^2.0.0",
     "cors": "^2.8.4",
